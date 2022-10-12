@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    height: 100vh;
+    background: url(../images/pattern-background-desktop.svg) center top no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--pale-blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 25%;
+
+}
+
+.illustration {
+    border-radius: 20px 20px 0 0;
+}
+
+.info {
+    width: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 25px;
+    background-color: #fff;
+    box-shadow: -3px 4px 24px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 20px 20px;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h1 {
+    margin-bottom: 1.25rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.description p {
+    color: var(--desatured-blue);
+}
+
+.price {
+    display: flex;
+    width: 100%;
+    padding: 0.9rem;
+    background-color: var(--very-pale-blue);
+    gap: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.price a {
+    align-self: center;
+    position: absolute;
+    right: 5%;
+    color: var(--bright-blue);
+    text-decoration: underline;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.price a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.price h3 {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.price span {
+    color: var(--desatured-blue);
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.payment a {
+    padding: 0.9rem;
+    font-weight: 700;
+    color: var(--pale-blue);
+    text-align: center;
+    width: 100%;
+    background-color: var(--bright-blue);
+    border-radius: 10px;
+    box-shadow: -3px 4px 24px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.payment a:hover {
+    opacity: 0.8;
+}
+
+.payment button {
+    background-color: #fff;
+    font-size: 1rem;
+    color: var(--desatured-blue);
+    font-weight: 700;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.payment button:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+}

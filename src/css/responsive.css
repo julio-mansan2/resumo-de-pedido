@@ -1,0 +1,67 @@
+@media (max-width: 320px) {
+    body {
+        height: 120vh;
+    }
+    
+    .illustration {
+        max-width: 18.75rem;
+    }
+
+    .info {
+        max-width: 18.75rem;
+    }
+
+    .container {
+        padding: 5%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        padding: 10% 5%;
+    }
+
+    .price {
+        gap: 5px;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 700px) {
+    body {
+        height: 120vh;
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+
+    .container {
+        padding: 5%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .illustration {
+        max-width: 21.8rem;
+    }
+
+    .info {
+        max-width: 21.8rem;
+        padding: 10% 5%;
+    }
+
+    .price {
+        gap: 5px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    body {
+        height: 130vh;
+    }
+
+    .container {
+        padding: 5%;
+    }
+}
